@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{%
+      else %}{{ site.title | escape }}{% endif %}
+    </title>
+    <meta
+      name="description"
+      content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"
+    />
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+    {% if page.theme == "orange" %}
+    <script>
+      document.documentElement.classList.add("theme-orange");
+    </script>
+    {% endif %}
+  </head>
+  <body>
+    <div class="min-h-screen flex flex-col">
+      {% include header.html %}
+
+      <main class="flex-grow container-custom py-8">{{ content }}</main>
+
+      {% include footer.html %}
+    </div>
+
+    <script>
+      // Theme switcher functionality
+      function toggleTheme() {
+        const html = document.documentElement;
+        if (html.classList.contains("theme-orange")) {
+          html.classList.remove("theme-orange");
+          localStorage.setItem("theme", "default");
+        } else {
+          html.classList.add("theme-orange");
+          localStorage.setItem("theme", "orange");
+        }
+      }
+
+      // Check for saved theme preference
+      document.addEventListener("DOMContentLoaded", () => {
+        // const savedTheme = localStorage.getItem('theme');
+        const savedTheme = "orange";
+        if (savedTheme === "orange") {
+          document.documentElement.classList.add("theme-orange");
+        } else if (savedTheme === "default") {
+          document.documentElement.classList.remove("theme-orange");
+        }
+      });
+    </script>
+  </body>
+</html>
