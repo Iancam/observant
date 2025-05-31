@@ -1,5 +1,6 @@
 ---
 title: Authenticity
+layout: post
 ---
 
 When I was in college, I had a period when I was obsessed with authenticity. I never defined it, but my big concern was being true to myself, as a guide for how to live my life. I aimed to be guided by rationality, and so I approached the topic philosophically, trying to zoom in on what a true self means. One perspective that I gained was that we are actually a bunch of different selves. Another insight was that many truths are organized around goals; once you have a goal in mind, you can judge the strategies and their concomitant truths based on how well they support the goal. Different goals meant different selves. I think people will feel an affinity to one self over another based on emotion, but truths of feeling were suspect to my hyper-rationalist mind. Perhaps because I lacked that connection, I didn't see any legitimate way to judge goals–they all seemed equally valid. My conclusion was that we are a writhing, constantly changing community of selves, and no individual self has more fundamental claim to authenticity than any other.

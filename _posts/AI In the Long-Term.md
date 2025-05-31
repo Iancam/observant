@@ -1,5 +1,6 @@
 ---
-title: Authenticity
+title: AI in the Long-Term
+layout: post
 ---
 AI companies never paid for the copyright to the content they were trained on. Though it sucks that writers, artists and publishing companies won't get paid, that is a first-order effect. When AI fails to pay writers and publishing companies, over time, those institutions will be unable to sustain the processes that produce the value that AI depends on. We need regulation to ensure that AI companies operate with an eye to their long-term viability and the viability of the rest of society.
 
