@@ -11,8 +11,14 @@
       name="description"
       content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"
     />
-    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
-    {% if page.theme == "orange" %}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | bust_file_cache
+    }}"> {% if page.theme == "orange" %}
     <script>
       document.documentElement.classList.add("theme-orange");
     </script>

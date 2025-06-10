@@ -1,12 +1,14 @@
 ---
 title: AI in the Long-Term
 layout: post
+date: 2025-05-29
 ---
+
 AI companies never paid for the copyright to the content they were trained on. Though it sucks that writers, artists and publishing companies won't get paid, that is a first-order effect. When AI fails to pay writers and publishing companies, over time, those institutions will be unable to sustain the processes that produce the value that AI depends on. We need regulation to ensure that AI companies operate with an eye to their long-term viability and the viability of the rest of society.
 
 As it is now, AI is like a fast-growing plant, perhaps a parasite, that has tapped into the nutrients of all our expertise-building institutions. It has sprouted up where the sunlight of attention, goodwill, and money usually lands and has spread a wide canopy, blocking out the light that usually falls on the leaves of these institutions. It has a shallow root system and isn't designed to sustainably generate expertise of its own. It also isn’t designed to transport money, goodwill, etc., down to the foundational plants it depends on. Instead, those life-giving nutrients go only to the AI companies, which grow larger still.
 
-If this were on a small scale, AI might keep its host alive. But if it happens on large scale–people rely solely on AI to learn new skills, we stop buying books and depend instead on AI summaries, we rely on AI for therapy instead of therapists trained at institutions that move the practice forward–institutions will shrivel in the long term, and the contributions to progress that they nurtured will wane as well. 
+If this were on a small scale, AI might keep its host alive. But if it happens on large scale–people rely solely on AI to learn new skills, we stop buying books and depend instead on AI summaries, we rely on AI for therapy instead of therapists trained at institutions that move the practice forward–institutions will shrivel in the long term, and the contributions to progress that they nurtured will wane as well.
 
 Take the Stack Overflow use case. As a software engineer or data analyst, I use Stack Overflow as a resource to solve problems with my code. When I go there for an answer, I can say thank you or at least upvote an answer, and I can also contribute my own answers or improvements. It's designed to cultivate generosity. By saying thank you or upvoting an answer, I provide further motivation for my benefactors to continue helping, and by taking the opportunity to contribute myself, I do my part to maintain the community of giving. Stack Overflow isn't perfect, but it sustainably creates value and nurtures value creators.
 

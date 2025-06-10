@@ -11,64 +11,58 @@
     --color-primary-300: 202, 172, 175; /* #caacaf */
     --color-primary-400: 162, 136, 146; /* #a28892 */
     --color-primary-500: 126, 101, 114; /* #7e6572 */
-    --color-primary-600: 103, 78, 89;   /* #674e59 */
-    --color-primary-700: 87, 63, 75;    /* #573f4b */
-    --color-primary-800: 69, 45, 55;    /* #452d37 */
-    --color-primary-900: 57, 30, 43;    /* #391e2b */
+    --color-primary-600: 103, 78, 89; /* #674e59 */
+    --color-primary-700: 87, 63, 75; /* #573f4b */
+    --color-primary-800: 69, 45, 55; /* #452d37 */
+    --color-primary-900: 57, 30, 43; /* #391e2b */
   }
-  
+
   /* Orange theme with blue highlights class */
   .theme-orange {
     --color-primary-100: 255, 232, 214; /* #FFE8D6 */
     --color-primary-200: 255, 218, 185; /* #FFDAB9 */
     --color-primary-300: 255, 196, 159; /* #FFC49F */
-    --color-primary-400: 244, 162, 97;  /* #F4A261 */
-    --color-primary-500: 231, 111, 81;  /* #E76F51 */
-    --color-primary-600: 211, 84, 0;    /* #D35400 */
-    --color-primary-700: 186, 74, 0;    /* #BA4A00 */
-    --color-primary-800: 160, 64, 0;    /* #A04000 */
-    --color-primary-900: 135, 54, 0;    /* #873600 */
-    
-    /* Blue accent colors */
-    --color-accent-100: 214, 234, 248; /* #D6EAF8 */
-    --color-accent-200: 174, 214, 241; /* #AED6F1 */
-    --color-accent-300: 133, 193, 233; /* #85C1E9 */
-    --color-accent-400: 93, 173, 226;  /* #5DADE2 */
-    --color-accent-500: 52, 152, 219;  /* #3498DB */
-    --color-accent-600: 40, 116, 166;  /* #2874A6 */
-    --color-accent-700: 27, 79, 114;   /* #1B4F72 */
-    --color-accent-800: 21, 67, 96;    /* #154360 */
-    --color-accent-900: 14, 47, 68;    /* #0E2F44 */
+    --color-primary-400: 244, 162, 97; /* #F4A261 */
+    --color-primary-500: 231, 111, 81; /* #E76F51 */
+    --color-primary-600: 211, 84, 0; /* #D35400 */
+    --color-primary-700: 186, 74, 0; /* #BA4A00 */
+    --color-primary-800: 160, 64, 0; /* #A04000 */
+    --color-primary-900: 135, 54, 0; /* #873600 */
   }
-  
+
   body {
     @apply font-mono bg-primary-100 text-primary-900;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-mono font-bold text-primary-800;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-crimson font-bold text-primary-800;
   }
-  
+
   a {
     @apply text-primary-600 hover:text-primary-800 transition-colors;
   }
-  
+
   /* Theme-specific styles for the orange theme */
   .theme-orange body {
     @apply bg-orange-theme-100 text-orange-theme-900;
   }
-  
-  .theme-orange h1, 
-  .theme-orange h2, 
-  .theme-orange h3, 
-  .theme-orange h4, 
-  .theme-orange h5, 
+
+  .theme-orange h1,
+  .theme-orange h2,
+  .theme-orange h3,
+  .theme-orange h4,
+  .theme-orange h5,
   .theme-orange h6 {
     @apply text-orange-theme-800;
   }
-  
+
   .theme-orange a {
-    @apply text-blue-accent-500 hover:text-blue-accent-700;
+    @apply text-orange-theme-500 hover:text-orange-theme-700;
   }
 }
 
@@ -77,23 +71,28 @@
   .prose {
     @apply text-primary-900;
   }
-  
-  .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-    @apply font-mono text-primary-800;
+
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6 {
+    @apply font-crimson text-primary-800;
   }
-  
+
   .prose a {
     @apply text-primary-600 hover:text-primary-800 no-underline;
   }
-  
+
   .prose blockquote {
     @apply border-l-4 border-primary-300 bg-primary-100 bg-opacity-50 pl-4 py-1 italic;
   }
-  
+
   .theme-orange .prose {
     @apply text-orange-theme-900;
   }
-  
+
   .theme-orange .prose h1,
   .theme-orange .prose h2,
   .theme-orange .prose h3,
@@ -102,11 +101,11 @@
   .theme-orange .prose h6 {
     @apply text-orange-theme-800;
   }
-  
+
   .theme-orange .prose a {
-    @apply text-blue-accent-500 hover:text-blue-accent-700;
+    @apply text-orange-theme-500 hover:text-orange-theme-700;
   }
-  
+
   .theme-orange .prose blockquote {
     @apply border-l-4 border-orange-theme-300 bg-orange-theme-100 bg-opacity-50;
   }
@@ -117,19 +116,19 @@
   .btn {
     @apply px-4 py-2 rounded-md transition-colors;
   }
-  
+
   .btn-primary {
     @apply bg-primary-500 text-white hover:bg-primary-600;
   }
-  
+
   .theme-orange .btn-primary {
     @apply bg-orange-theme-500 text-white hover:bg-orange-theme-600;
   }
-  
+
   .btn-accent {
     @apply theme-orange:bg-blue-accent-500 theme-orange:text-white theme-orange:hover:bg-blue-accent-600;
   }
-  
+
   .container-custom {
     @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
   }

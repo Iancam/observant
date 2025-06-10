@@ -12,13 +12,30 @@ layout: default
     </p>
   </header>
 
-  <div class="bg-white bg-opacity-50 p-6 rounded-lg shadow-md prose prose-primary max-w-none">
-    {{ content }}
-  </div>
+  <div class="prose prose-primary">{{ content }}</div>
 
   <div class="mt-8 pt-4 border-t border-primary-200">
-    <a href="{{ '/' | relative_url }}" class="text-primary-600 hover:text-primary-800">
+    <a
+      href="{{ '/' | relative_url }}"
+      class="text-primary-600 hover:text-primary-800"
+    >
       ← Back to all posts
     </a>
   </div>
 </article>
+<script
+  src="https://giscus.app/client.js"
+  data-repo="iancam/observant-comments"
+  data-repo-id="R_kgDOO5CLDA"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOO5CLDM4CrR5o"
+  data-mapping="pathname"
+  data-strict="1"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="light"
+  data-lang="en"
+  crossorigin="anonymous"
+  async
+></script>
